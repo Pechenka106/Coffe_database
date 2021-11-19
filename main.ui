@@ -34,6 +34,20 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QPushButton" name="open">
+        <property name="text">
+         <string>Открыть</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="create">
+        <property name="text">
+         <string>Создать</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item>
@@ -52,7 +66,7 @@
     <item>
      <widget class="QLabel" name="id">
       <property name="text">
-       <string>ID –</string>
+       <string>ID:</string>
       </property>
      </widget>
     </item>
@@ -66,14 +80,14 @@
     <item>
      <widget class="QLabel" name="roasting">
       <property name="text">
-       <string>Степень обжарки –</string>
+       <string>Степень обжарки:</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="type">
       <property name="text">
-       <string>Молотый/в зернах –</string>
+       <string>Молотый/в зернах:</string>
       </property>
      </widget>
     </item>
@@ -87,14 +101,14 @@
     <item>
      <widget class="QLabel" name="price">
       <property name="text">
-       <string>Цена –</string>
+       <string>Цена:</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="volume">
       <property name="text">
-       <string>Объём упаковки –</string>
+       <string>Объём упаковки:</string>
       </property>
      </widget>
     </item>

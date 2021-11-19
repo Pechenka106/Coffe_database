@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>545</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="id">
+     <property name="text">
+      <string>ID –</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_2">
+     <property name="text">
+      <string>Название сорта: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_6">
+     <property name="text">
+      <string>Степень обжарки:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="roasting"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_5">
+     <property name="text">
+      <string>Молотый/в зернах:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="type"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_7">
+     <property name="text">
+      <string>Вкус: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="taste"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_3">
+     <property name="text">
+      <string>Цена:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="price"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_4">
+     <property name="text">
+      <string>Объём упаковки:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="volume"/>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_save">
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
